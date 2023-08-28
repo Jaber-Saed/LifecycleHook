@@ -1,4 +1,8 @@
 .demo{
     text-align: center;
-      margin: 100px;
+      margin: 10px;
+      border: 5px;
+      background:cornsilk;
+      padding: 10px
 }
+

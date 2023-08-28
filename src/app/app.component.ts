@@ -7,9 +7,14 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'LifecycleHook';
-    inputText: string = '';
+  inputText: string = '';
+  destroy: boolean = true;
 
-  OnSubmit (inputEl: HTMLInputElement){
+  OnSubmit(inputEl: HTMLInputElement) {
     this.inputText = inputEl.value;
+  }
+
+  DestroyComponent() {
+    this.destroy = false;
   }
 }
